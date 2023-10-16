@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+nav {
+  justify-content: space-between;
+  padding: 50px;
+}
+
+section {
+  padding: 50px, 0px, 50px, 0px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 960px;
+  padding: 50px, 0px, 50px, 0px;
+}
+
+.testimonial-container {
+  background-color: white;
+  color: #000000;
+  padding: 60px, 0px, 60px, 0px;
+}
+
+h1 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font: 700;
+    font-size: 75px;
+    line-height: 70px;
+    margin: 0;
+}
+
+h2 {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font: 600;
+    font-size: 65px;
+    margin: 5px;
+}
+
+h3{
+  font-family: neue-haas-unica, sans-serif;
+  font: 300;
+  font-size: 30px;
+  margin: 15px;
+}
+
+p {
+    font-family: neue-haas-unica, sans-serif;
+    font: 300;
+    margin: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  text-align: left;
+  font-family: neue-haas-unica, sans-serif;
+  font: 300;
+  margin: 0px;
+}
+
+/* CSS */
+.standard-button {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family: neue-haas-unica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+}
+
+.standard-button:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.standard-button:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.standard-button:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+/* CSS */
+.cta-button {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: neue-haas-unica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 3rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.cta-button:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .cta-button {
+    padding: 0 2.6rem;
+  }
+}
+
+/* CSS */
+.pricing-button {
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #1A1A1A;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: neue-haas-unica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 10px;
+  min-height: 2rem;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 90%;
+  will-change: transform;
+}
+
+.pricing-button:disabled {
+  pointer-events: none;
+}
+
+.pricing-button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.pricing-button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.pricing {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  color: black;
+  width: 300px;
+  height: 500px;
+  justify-content: center;
+  margin: 20px;
+  padding: 25px;
+  }
