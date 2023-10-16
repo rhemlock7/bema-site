@@ -10,7 +10,15 @@ body {
 
 nav {
   justify-content: space-between;
+  width: 100%;
+  display: flex;
   padding: 50px;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
 }
 
 section {
